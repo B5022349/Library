@@ -1,0 +1,32 @@
+package com.tvella
+
+class Student {
+
+String name
+
+String email
+
+String username
+
+String password
+
+int studentID
+
+String course
+
+    static constraints = {
+
+name blank:false, nullable:false
+
+email blank:false, nullable:false
+
+username unique:true, blank:false, nullable:false
+
+password password:true, blank:false, nullable:false
+
+studentID unique:true, blank:false, nullable:false
+
+course blank:false, nullable:false
+
+    }
+}
