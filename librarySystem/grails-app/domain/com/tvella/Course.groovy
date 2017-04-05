@@ -4,7 +4,7 @@ class Course {
 
 String title
 
-int code
+String code
 
 String leader
 
