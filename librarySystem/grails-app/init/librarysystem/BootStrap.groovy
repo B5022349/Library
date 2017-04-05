@@ -98,8 +98,8 @@ title: 'A Song of Ice and Fire A Game of Thrones',
 subject: 'Science',
 author: 'George R R Martin',
 isbn: 'A001',
-dateBorrowed: New Date ('21/03/2017'),
-returnDate: New Date ('21/06/2017'),
+dateBorrowed: new Date('21/03/2017'),
+returnDate: new Date('21/06/2017'),
 student: Student1,
 overdue: false
 
@@ -111,8 +111,8 @@ title: 'A Song of Ice and Fire A Clash of Kings',
 subject: 'Science',
 author: 'George R R Martin',
 isbn: 'A002',
-dateBorrowed: New Date ('24/02/2017'),
-returnDate: New Date ('24/05/2017'),
+dateBorrowed: new Date('24/02/2017'),
+returnDate: new Date('24/05/2017'),
 student: Student2,
 overdue: false
 
@@ -121,7 +121,7 @@ overdue: false
 def BookReview1 = New BookReview (
 
 book: Book1,
-dateCreated: New Date ('01/02/2017'),
+dateCreated: new Date('01/02/2017'),
 student: Student1,
 review: 'Good book mate, read it'
 
@@ -130,7 +130,7 @@ review: 'Good book mate, read it'
 def BookReview2 = New BookReview (
 
 book: Book2,
-dateCreated: New Date ('02/03/2017'),
+dateCreated: new Date('02/03/2017'),
 student: Student2,
 review: 'Not as good as the first one, still read it'
 
