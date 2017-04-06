@@ -7,7 +7,7 @@ class BootStrap {
 def Library1 = New Library (
 
 building: 'Todd Library',
-address: '1 Street Street, Sheffield',
+address: '1 Street Street Sheffield',
 openingHours: '9:00 - 18:00',
 location: 'Todd Building',
 studySpaces: '73'
@@ -17,7 +17,7 @@ studySpaces: '73'
 def Library2 = New Library (
 
 building: 'Matt Library',
-address: '2 Street Street, Sheffield',
+address: '2 Street Street Sheffield',
 openingHours: '10:00 - 17:00',
 location: 'Matt Building',
 studySpaces: '35'
