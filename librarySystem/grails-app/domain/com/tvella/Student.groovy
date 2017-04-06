@@ -12,7 +12,9 @@ String password
 
 int studentID
 
-String course
+Course course
+
+static hasMany=[bookReviews: BookReview, books: Book]
 
     static constraints = {
 

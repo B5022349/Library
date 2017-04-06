@@ -12,6 +12,8 @@ String location
 
 int studySpaces
 
+static hasMany=[students: Student, librarians: Librarian, books: Book]
+
     static constraints = {
 
 building blank:false, nullable:false

@@ -1,4 +1,4 @@
-package librarysystem
+package tvella
 
 class BootStrap {
 
@@ -90,6 +90,7 @@ password: 'password',
 studentID: '55022348',
 course: Course2
 
+
 ).save()
 
 def Book1 = New Book ( 
@@ -135,6 +136,29 @@ student: Student2,
 review: 'Not as good as the first one, still read it'
 
 ).save()
+
+Course1.addToStudents(Student1)
+Course1.addToStudents(Student2)
+
+Student1.addToBooks(Book1)
+Student2.addToBooks(Book2)
+
+Student1.addToBookReviews(BookReview1)
+Student2.addToBookReviews(BookReview2)
+
+Library1.addToBooks(Book1)
+Library2.addToBooks(Book2)
+
+Library1.addToLibrarians(Librarian1)
+Library2.addToLibrarians(Librarian2)
+
+Library1.addToStudents(Student1)
+Library2.addToStudents(Student2)
+
+Book1.addToBookReviews(BookReview1)
+Book2.addToBookReviews(BookReview2)
+
+
 
     }
     def destroy = {

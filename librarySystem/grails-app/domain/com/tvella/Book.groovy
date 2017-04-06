@@ -18,6 +18,7 @@ String student
 
 Boolean overdue
 
+static hasMany=[bookReviews: BookReview]
 
     static constraints = {
 
